@@ -1,7 +1,8 @@
-## Creates two functions for solving and storing the inverse of a matrix.  
+## Creates functions for solving and storing the inverse of a matrix.  
 
 
-## Creates a matrix with a cached inverse.
+## Creates a matrix with a cached inverse and functions for setting
+## and retrieving the inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
